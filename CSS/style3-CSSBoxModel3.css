@@ -1,0 +1,32 @@
+html{
+    font-size: 20px;
+}
+
+article{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+h3{
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+
+button{
+    font-size: 1em;
+    border-radius: 0.5em;
+    background-color: cornflowerblue;
+}
+
+p{
+    font-size: 1em;
+    margin-left: 1em;
+}
+
+ul{
+    font-size: 1.5rem;
+}

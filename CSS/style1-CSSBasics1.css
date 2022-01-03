@@ -1,0 +1,18 @@
+h2{
+    color: white;
+    background-color: rgb(74,55,120);
+}
+
+button{
+    color: palevioletred;
+    background-color: #55ffaa;
+}
+
+p{
+    color: blueviolet;
+    background-color: orange;
+}
+
+body{
+    background: white;
+}

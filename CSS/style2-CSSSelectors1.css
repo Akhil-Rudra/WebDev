@@ -1,0 +1,87 @@
+*{
+    background-color: #ffe8d6;
+}
+
+button{
+    font-size: 20px;
+    background-color: #e76f51;
+
+}
+
+h1,h2{
+    color: darkkhaki;
+}
+
+h1,h2{
+    color:#9d4edd;
+}
+
+#signup{
+    background-color: #f4a261;
+}
+
+span{
+    color: #d00000;
+}
+
+.tag{
+    color: #4cc9f0;
+    background-color: #b5179e;
+}
+
+footer a {
+    color: #83c5be;
+}
+
+.tag a{
+    color: #5390d9;
+}
+
+input + button {                       
+    background-color: pink;    
+}
+
+footer > a{
+    color: #2b2d42;
+}
+
+input[type="password"]{
+    color: green;
+    background-color: white;
+}
+
+.post:nth-of-type(2n){
+    background-color: #240046;
+}
+
+.post button:active{
+    background-color:#5390d9;
+}
+
+a[href*="puppies"]{
+    color: #240046;
+}
+
+.post a:hover{
+   background-color: #b5179e;
+   text-decoration: underline;
+}
+
+.post button:hover{
+    background-color: #2b2d42;
+}
+
+button:hover{
+    background-color: olive;
+    font-size: 10px;
+}
+
+p::first-letter{
+    color:orange;
+    font-size: 30px;
+}
+
+p::selection{
+    background-color: #f4a261;
+}
+
