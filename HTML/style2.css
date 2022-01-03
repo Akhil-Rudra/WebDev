@@ -1,0 +1,142 @@
+/* header */
+header.page-header {
+    background: no-repeat left/cover url(C:/ApplicationWorks/Projects/WebDevelopment/HTML/Images/pic1.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #ffff; 
+}
+
+main {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+/* div */
+.warning {
+    border: 10px ridge #f00;
+    border-width: 100%;
+    background-color: #ff0;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning img {
+    width: 10%;
+}
+
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: left;
+}
+
+/* span */
+span.ingredient {
+    color: #f00;
+}
+
+/* nav */
+nav {
+    border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+section{
+    border-bottom: 1px solid black;
+}
+/* article */
+.forecast {
+    margin: 0;
+    padding: 0.3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.forecast > h1,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat
+        url('C:/ApplicationWorks/Projects/WebDevelopment/HTML/Images/pic1.jpg') white;
+}
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+/* aside */
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* figure */
+figure {
+    border: thin#c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
+

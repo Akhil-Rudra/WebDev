@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Forms and Tables</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <h2>TR, TH, TD, ROWSPAN, COLSPAN</h2>
+    <b>BELOW IS THE EXAMPLE:</b>
+    <table>
+        <caption>Alien football stars</caption>
+        <tr>
+            <th scope="col">Player</th>
+            <th scope="col">Gloobles</th>
+            <th colspan="2" scope="col">Za'taak</th>
+        </tr>
+        <tr>
+            <th scope="row">TR-7</th>
+            <td>7</td>
+            <td>4,569</td>
+        </tr>
+        <tr>
+            <th scope="row">Khiresh Odo</th>
+            <td>7</td>
+            <td>7,223</td>
+        </tr>
+        <tr>
+            <th scope="row">Mia Oolong</th>
+            <td>9</td>
+            <td>6,219</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+            <th>Savings for holiday!</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+            <td rowspan="2">$50</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$80</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sum: $180</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
+    <h2>FORMS - label,input,name</h2>
+    <p><i>The HTML form element represents a document section containing interactive controls for submitting
+            information.</i></p>
+    <b>BELOW IS THE EXAMPLE:</b>
+    <form action="/result" method="get" class="form-example">
+        <div class="form-example">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+            <input type="submit" value="Subscribe!">
+        </div>
+    </form>
+
+    <hr>
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
+    <h2>LABEL</h2>
+    <p><i>The HTML label element represents a caption for an item in a user interface.</i></p>
+    <b>BELOW IS THE EXAMPLE:</b>
+    <div class="preference">
+        <label for="cheese">Do you like cheese?</label>
+        <input type="checkbox" name="cheese" id="cheese">
+    </div>
+
+    <div class="preference">
+        <label for="peas">Do you like peas?</label>
+        <input type="checkbox" name="peas" id="peas">
+    </div>
+    <hr>
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+    <h2>BUTTON</h2>
+    <p><i>The HTML button element represents a clickable button, used to submit forms or anywhere in a document for
+            accessible, standard button functionality. By default, HTML buttons are presented in a style resembling
+            the platform the user agent runs on, but you can change buttons’ appearance with CSS.</i></p>
+
+    <button class="styled" type="button">
+        Add to favorites
+    </button>
+    <hr>
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+    <h2>RADIO BUTTONS, CHECKBOXES AND SELECTS</h2>
+    <b>BELOW IS THE EXAMPLE:</b>
+    <p>Choose your monster's features:</p>
+
+    <span>
+        <input type="checkbox" id="scales" name="scales" checked>
+        <label for="scales">Scales</label>
+    </span>
+
+    <span>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">Horns</label>
+    </span>
+    <hr>
+
+    <p>Select a maintenance drone:</p>
+
+    <span>
+        <input type="radio" id="huey" name="drone" value="huey" checked>
+        <label for="huey">Huey</label>
+    </span>
+
+    <span>
+        <input type="radio" id="dewey" name="drone" value="dewey">
+        <label for="dewey">Dewey</label>
+    </span>
+
+    <span>
+        <input type="radio" id="louie" name="drone" value="louie">
+        <label for="louie">Louie</label>
+    </span>
+    <hr>
+
+    <label for="pet-select">Choose a pet:</label>
+
+    <select name="pets" id="pet-select">
+        <option value="">--Please choose an option--</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+    </select>
+    <hr>
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
+    <h2>RANGE & TEXT AREA</h2>
+    <b>BELOW IS THE EXAMPLE:</b>
+    <p>Audio settings:</p>
+
+    <span>
+        <input type="range" id="volume" name="volume" min="0" max="11">
+        <label for="volume">Volume</label>
+    </span>
+
+    <span>
+        <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10">
+        <label for="cowbell">Cowbell</label>
+    </span>
+
+    <label for="story">Tell us your story:</label>
+
+    <textarea id="story" name="story" rows="5" cols="33">
+It was a dark and stormy night...
+</textarea>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
+</body>
+
+</html>

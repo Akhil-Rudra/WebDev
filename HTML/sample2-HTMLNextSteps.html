@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Next Steps</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <main>
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
+        <H1>HEADER</H1>
+        <b>BELOW IS THE EXAMPLE:</b>
+
+        <header class="page-header">
+            <h1>Cute Puppies Express!</h1>
+        </header>
+
+        <main>
+            <p>I love beagles <em>so</em> much! Like, really, a lot. They’re adorable and their ears are so, so snuggly
+                soft!</p>
+        </main>
+        <hr>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <h1>DIV ELEMENT</h1>
+        <p><i>The HTML Content Division element div is the generic container for flow content.<br>
+                It has no effect on the content or layout until styled in some way using CSS <br>
+                (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its
+                parent element).</i></p>
+
+        <b>BELOW IS THE EXAMPLE:</b>
+        <div class="warning">
+            <img src="C:/ApplicationWorks/Projects/WebDevelopment/HTML/Images/pic1.jpg"
+                alt="Grapefruit slice atop a pile of other slices">
+            <p>Beware of the leopard</p>
+        </div>
+        <hr>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <h1>SPAN ELEMENT</h1>
+        <p><i>The HTML span element is a generic inline container for phrasing content,
+                which does not inherently represent anything. It can be used to group elements for styling purposes
+                (using the class or id attributes),
+                or because they share attribute values, such as lang. It should be used only when no other semantic
+                element is appropriate.
+                span is very much like a div element, but div is a block-level element whereas a span is an inline
+                element.</i></p>
+
+        <b>BELOW IS THE EXAMPLE</b>
+        <p>Add the <span class="ingredient">basil</span>, <span class="ingredient">pine nuts</span> and <span
+                class="ingredient">garlic</span> to a blender and blend into a paste.</p>
+
+        <p>Gradually add the <span class="ingredient">olive oil</span> while running the blender slowly.</p>
+
+        <hr>
+
+        <P>The above one is separated with <b>HR</b> tag</P>
+
+        <hr>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <h2>BREAK, SUB, SUP ELEMENT</h2>
+        <p> O’er all the hilltops<br>
+            Is quiet now,<br>
+            In all the treetops<br>
+            Hearest thou<br>
+            Hardly <sup><b>[2]</b></sup> a breath;<br>
+            The birds are asleep <sub><b>[3]</b></sub> in the trees:<br>
+            Wait, soon like these<br>
+            Thou too shalt rest.
+
+            <h2>ENTITIY CODES 1 &lt; 3</h2>
+
+            <h1>&#9731;Snowman Productions<sup>&reg;</sup></h1>
+        </p>
+
+        <hr>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <h1>SEMANTIC ELEMENTS</h1>
+        <h2><u>NAV HERE</u></h2>
+        <p><i>The HTML nav element represents a section of a page whose purpose is to provide navigation links,<br>
+                either within the current document or to other documents. Common examples of navigation sections are
+                menus, tables of contents, and indexes.</i></p>
+
+        <b>BELOW IS THE EXAMPLE</b>
+        <nav class="crumbs">
+            <ol>
+                <li class="crumb"><a href="#">Bikes</a></li>
+                <li class="crumb"><a href="#">BMX</a></li>
+                <li class="crumb">Jump Bike 3000</li>
+            </ol>
+        </nav>
+
+        <h1>Jump Bike 3000</h1>
+        <p>This BMX bike is a solid step into the pro world. It looks as legit as it rides and is built to polish your
+            skills.</p>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <h2><u>SECTION HERE</u></h2>
+        <p><i>The HTML section element represents a generic standalone section of a document, which doesn't have a more
+                specific semantic element to represent it.<br>
+                Sections should always have a heading, with very few exceptions.</i></p>
+        <b>BELOW IS THE EXAMPLE</b>
+        <h2>Choosing an Apple</h2>
+        <section>
+            <h2>Introduction</h2>
+            <p>This document provides a guide to help with the important task of choosing the correct Apple.</p>
+        </section>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <h2><u>ARTICLE HERE</u></h2>
+        <P><i>The HTML article element represents a self-contained composition in a document, page, application, or
+                site,<br>
+                which is intended to be independently distributable or reusable (e.g., in syndication). Examples
+                include: a forum post,<br>
+                a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an
+                interactive widget or gadget,<br>
+                or any other independent item of content.</i></P>
+
+        <b>BELOW IS THE EXAMPLE:</b>
+        <article class="forecast">
+            <h1>Weather forecast for Seattle</h1>
+            <article class="day-forecast">
+                <h2>03 March 2018</h2>
+                <p>Rain.</p>
+            </article>
+            <article class="day-forecast">
+                <h2>04 March 2018</h2>
+                <p>Periods of rain.</p>
+            </article>
+            <article class="day-forecast">
+                <h2>05 March 2018</h2>
+                <p>Heavy rain.</p>
+            </article>
+        </article>
+
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <h2><u>ASIDE HERE</u></h2>
+        <p><i>The HTML aside element represents a portion of a document whose content is only indirectly related to
+                the document's main content. Asides are frequently presented as sidebars or call-out boxes.</i></p>
+
+        <b>BELOW IS THE EXAMPLE:</b>
+        <p>Salamanders are a group of amphibians with a lizard-like appearance, including short legs and a tail in both
+            larval and adult forms.</p>
+
+        <aside>
+            <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+        </aside>
+
+        <p>Several species of salamander inhabit the temperate rainforest of the Pacific Northwest, including the
+            Ensatina, the Northwestern Salamander and the Rough-skinned Newt. Most salamanders are nocturnal, and hunt
+            for insects, worms and other small creatures.</p>
+        <hr>
+
+        <p>The Cure will be celebrating their 40th anniversary on <time datetime="2018-07-07">July 7</time> in London's
+            Hyde Park.</p>
+        <hr>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <figure>
+            <img src="C:/ApplicationWorks/Projects/WebDevelopment/HTML/Images/pic1.jpg"
+                alt="Grapefruit slice atop a pile of other slices" width=400px height=200px>
+            <figcaption>An elephant at sunset</figcaption>
+        </figure>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <hr>
+
+        <footer>
+            <p>© 2018 Gandalf</p>
+        </footer>
+    </main>
+
+
+</body>
+
+</html>
